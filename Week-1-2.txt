@@ -1,0 +1,3 @@
+Postgres: schema design, normalization, joins, indexes (B-tree), transactions & ACID, EXPLAIN ANALYZE, query optimization, N+1 problem, connection pooling :
+
+https://chat.deepseek.com/share/4has6ij3v327nyldfh
