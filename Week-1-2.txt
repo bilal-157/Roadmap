@@ -1,12 +1,4 @@
-Welcome to **SQL Mastery Bootcamp**, young Padawan! 
 
-I am not here to give you textbook definitions that you will forget in 5 minutes. I am here to hardcode concepts into your brain using **Hammer Points** (mental slap-in-the-face truths) and **Practical War Stories** (real-world scenarios). 
-
-By the time you finish this, you won't just "know" these topics; you will *feel* them in your bones. When an interviewer asks about them, you won't recite Wikipedia—you'll draw architecture diagrams on the whiteboard.
-
-Let’s dive into the PostgreSQL dojo.
-
----
 
 ### 1. Schema Design & Normalization (The Blueprint)
 **The Concept:** Designing how your tables relate to each other. Normalization is the process of removing duplicate data to save space and ensure consistency (1NF, 2NF, 3NF, BCNF).
