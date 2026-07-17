@@ -1,3 +1,8 @@
+✅ Neon Free: enough for this traffic.
+✅ Redis Cloud Free: enough for sessions, cache, queues, and rate limiting.
+✅ Cloudflare Free: enough for DNS, CDN, SSL, and basic WAF.
+✅ Cloudflare R2 Free allowance: enough for a blog with moderate image usage.
+--------------------
 # Software Requirements Specification — Administrative Blog Application
 
 ## 1. Introduction
