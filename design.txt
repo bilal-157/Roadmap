@@ -1,0 +1,49 @@
+This maps well onto the schema — "niche" is essentially your `categories` table, and here's how the pieces fit together.
+
+## Page structure
+
+**Top bar (persistent across dashboard)**
+- Logo/site name
+- If not logged in: "Login" button → opens modal or redirects to `/login`
+- If logged in as **author**: shows "New Post" button + avatar/dropdown (My Posts, Logout)
+- If logged in as **admin**: shows "New Post" + avatar/dropdown (Manage Posts, Manage Users, Activity Log, Logout)
+
+This is just conditional rendering based on the logged-in user's `role` from your `users` table — nothing new in the schema needed.
+
+**Main feed (cards)**
+- Grid of post cards, each showing: `featured_image`, `title`, `excerpt`, author name, published date, category/niche tag
+- Clicking a card opens the post in a new tab: use `target="_blank" rel="noopener noreferrer"` on the link, pointing to `/posts/:slug`
+- Pagination or infinite scroll depending on volume
+
+**Single post page (opens in new tab)**
+- Full post content
+- At the bottom: "Related Posts" section
+
+## Related posts logic
+
+Since you called it "niche," you'll want a `category_id` on `posts` (or the `post_category` pivot if a post can belong to multiple categories — I'd suggest **one primary category per post** to keep "related posts" simple, even if you also allow tags separately).
+
+Simplest reliable query:
+```sql
+SELECT * FROM posts
+WHERE category_id = :current_post_category_id
+  AND id != :current_post_id
+  AND status = 'published'
+ORDER BY published_at DESC
+LIMIT 4;
+```
+
+If you later want smarter relevance (shared tags, popularity, etc.), you can layer that on, but category-match is the standard "related posts" approach and is fast and predictable.
+
+## Role capabilities recap (for your top-bar logic)
+
+| Action | Visitor | Author | Admin |
+|---|---|---|---|
+| View posts | ✅ | ✅ | ✅ |
+| Create post | ❌ | ✅ | ✅ |
+| Edit own post | ❌ | ❌ (per your spec) | ✅ |
+| Delete post | ❌ | ❌ | ✅ |
+| View activity log | ❌ | ❌ | ✅ |
+| Manage users | ❌ | ❌ | ✅ |
+
+One quick question so I build the right thing next —
