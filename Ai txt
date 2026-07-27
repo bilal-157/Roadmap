@@ -1,0 +1,403 @@
+If your goal is to become an AI/ML engineer who is **highly employable in 2026**, don't just learn machine learning. Learn how to **build, deploy, and scale AI systems**. Companies increasingly hire engineers who can take an idea from data to production.
+
+Here's a roadmap that reflects what employers are looking for in 2026.
+
+---
+
+# Phase 1 (1–2 Months): Programming & Math Foundations
+
+## Python (Master It)
+
+Learn:
+
+* Variables, loops, functions
+* OOP
+* File handling
+* Error handling
+* Virtual environments
+* Pip
+* Type hints
+* Async basics
+
+Practice:
+
+* Solve 100+ Python problems
+* Build small scripts every day
+
+Resources:
+
+* Python Crash Course
+* Real Python
+* LeetCode (Easy)
+
+---
+
+## Mathematics
+
+You don't need a math degree, but understand:
+
+### Linear Algebra
+
+* Vectors
+* Matrices
+* Dot products
+* Eigenvalues
+* SVD
+
+### Calculus
+
+* Derivatives
+* Gradient
+* Chain rule
+* Partial derivatives
+
+### Probability & Statistics
+
+Learn:
+
+* Mean
+* Variance
+* Gaussian distribution
+* Bayes theorem
+* Hypothesis testing
+
+---
+
+# Phase 2 (2 Months): Data Analysis
+
+Libraries:
+
+* NumPy
+* Pandas
+* Matplotlib
+* Plotly
+
+Projects:
+
+* Netflix dataset analysis
+* Stock market analysis
+* COVID data dashboard
+* Sales dashboard
+
+Skills:
+
+* Data cleaning
+* Missing values
+* Feature engineering
+* Visualization
+
+---
+
+# Phase 3 (3 Months): Machine Learning
+
+Master **scikit-learn**.
+
+Algorithms:
+
+Regression
+
+* Linear Regression
+* Ridge
+* Lasso
+
+Classification
+
+* Logistic Regression
+* SVM
+* KNN
+* Decision Trees
+* Random Forest
+* XGBoost
+
+Clustering
+
+* K-Means
+* DBSCAN
+
+Dimensionality Reduction
+
+* PCA
+* t-SNE
+
+Evaluation:
+
+* Accuracy
+* Precision
+* Recall
+* ROC-AUC
+* Cross Validation
+
+Projects:
+
+* House price prediction
+* Customer churn prediction
+* Spam classifier
+* Credit risk prediction
+
+---
+
+# Phase 4 (2–3 Months): Deep Learning
+
+Learn:
+
+* PyTorch (preferred)
+* TensorFlow/Keras (good to know)
+
+Topics:
+
+* Neural Networks
+* Backpropagation
+* CNNs
+* RNNs
+* LSTMs
+* Attention
+* Transformers
+
+Projects:
+
+* Image classifier
+* Handwritten digit recognition
+* Face mask detection
+* Sentiment analysis
+
+---
+
+# Phase 5 (2–3 Months): Large Language Models (LLMs)
+
+This is one of the biggest hiring areas.
+
+Learn:
+
+* Transformers
+* Tokenization
+* Embeddings
+* Attention
+* Prompt engineering
+* Retrieval-Augmented Generation (RAG)
+* Function calling
+* Tool use
+* Agents
+* Fine-tuning
+* Evaluation
+
+Frameworks:
+
+* LangChain
+* LlamaIndex
+* Hugging Face Transformers
+* vLLM
+* Ollama (local models)
+
+Projects:
+
+* PDF chatbot
+* AI coding assistant
+* Document search
+* Customer support bot
+* Resume analyzer
+
+---
+
+# Phase 6 (1–2 Months): MLOps
+
+Many candidates skip this; it helps you stand out.
+
+Learn:
+
+* Docker
+* Git
+* GitHub Actions
+* MLflow
+* DVC
+* FastAPI
+* Kubernetes (basics)
+* CI/CD
+
+Deployment:
+
+* FastAPI
+* Docker
+* Cloud deployment
+
+---
+
+# Phase 7: Databases
+
+SQL
+
+Learn:
+
+* SELECT
+* JOIN
+* GROUP BY
+* Window functions
+* CTEs
+
+NoSQL
+
+* MongoDB
+
+Vector Databases
+
+* Chroma
+* FAISS
+* Pinecone
+* Weaviate
+
+---
+
+# Phase 8: Cloud
+
+Choose one cloud platform.
+
+AWS:
+
+* EC2
+* S3
+* Lambda
+* SageMaker
+
+or
+
+Azure
+
+or
+
+Google Cloud
+
+---
+
+# Phase 9: Software Engineering
+
+Learn:
+
+* Git
+* Testing
+* Logging
+* APIs
+* REST
+* Authentication
+* Design patterns
+
+Build APIs using:
+
+* FastAPI
+
+---
+
+# Phase 10: Build a Strong Portfolio
+
+Aim for 10–15 polished projects, for example:
+
+* AI Resume Screener
+* AI Interview Bot
+* Medical Chatbot (demo data)
+* RAG PDF Assistant
+* Voice Assistant
+* Image Caption Generator
+* OCR + LLM App
+* Fake News Detector
+* Recommendation System
+* AI Email Writer
+* Customer Support AI
+* AI Research Assistant
+
+Each project should include:
+
+* Clean README
+* Architecture diagram
+* Deployment
+* Tests
+* Live demo (if possible)
+
+---
+
+# Phase 11: Learn AI System Design
+
+Understand:
+
+* RAG architecture
+* Embedding pipelines
+* Chunking
+* Retrieval
+* Caching
+* Vector databases
+* Model serving
+* Latency optimization
+* Monitoring
+* AI evaluation
+
+---
+
+# Phase 12: Competitive Programming & DSA
+
+Focus on interview preparation.
+
+Topics:
+
+* Arrays
+* Strings
+* Trees
+* Graphs
+* Dynamic Programming
+* Heaps
+* Hash Maps
+
+Practice:
+
+* 200–300 LeetCode problems
+
+---
+
+# Certifications (Optional)
+
+Useful if you're new to the field:
+
+* AWS Machine Learning
+* Google Cloud ML
+* Microsoft Azure AI
+
+These can help your resume but are less important than solid projects and experience.
+
+---
+
+# Suggested Learning Resources
+
+* Andrew Ng's Machine Learning and Deep Learning courses
+* Hugging Face documentation and tutorials
+* PyTorch documentation
+* FastAPI documentation
+* Kaggle (datasets and competitions)
+* Papers With Code (research with implementations)
+
+---
+
+# 12-Month Timeline
+
+| Month | Focus                             |
+| ----- | --------------------------------- |
+| 1     | Python + Git + Math               |
+| 2     | NumPy + Pandas + SQL              |
+| 3     | Machine Learning                  |
+| 4     | Advanced ML + Projects            |
+| 5     | Deep Learning                     |
+| 6     | Transformers + NLP                |
+| 7     | LLMs + RAG                        |
+| 8     | Agents + AI Apps                  |
+| 9     | MLOps + Docker + FastAPI          |
+| 10    | Cloud + Deployment                |
+| 11    | AI System Design + DSA            |
+| 12    | Portfolio, Resume, Interview Prep |
+
+## What employers value most in 2026
+
+A standout AI/ML engineer can usually demonstrate:
+
+* Strong Python and software engineering skills.
+* Practical ML and deep learning knowledge.
+* Experience building LLM applications (RAG, agents, tool use).
+* Ability to deploy and monitor models in production.
+* A GitHub portfolio with several polished, documented projects.
+* Clear communication about technical decisions and tradeoffs.
+
+If you consistently build projects alongside your learning rather than only watching courses, you'll be much better prepared for internships and full-time AI/ML engineering roles.
