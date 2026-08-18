@@ -1,8 +1,3 @@
-Yes. If we're optimizing specifically for **getting you hired in 2027**, I would make the roadmap more focused than the earlier generic one.
-
-I checked current 2026 AI/ML job requirements, including Pakistan-based postings. The pattern is quite clear: employers increasingly want engineers who can combine **Python + ML/DL + LLMs + RAG/agents + APIs + cloud + Docker/Kubernetes + MLOps + system design**, rather than someone who only knows how to train models. A current Lahore AI/ML posting, for example, explicitly asks for Python, PyTorch, ML fundamentals, LLMs, FastAPI, cloud, Docker, with RAG, fine-tuning, agents and MLOps as valuable additions. ([LinkedIn][1])
-
-For **you specifically**, I'd target:
 
 > **AI Engineer / ML Engineer + strong Backend + MLOps/Cloud**
 
@@ -1398,8 +1393,6 @@ Now you're adding:
 > **ML → PyTorch → Computer Vision → Transformers → LLMs → RAG → Agents → MLOps → AI Infrastructure**
 
 That combination is much more powerful.
-
-Current job postings support this direction: Python/PyTorch, LLMs, RAG, FastAPI, cloud, Docker, Kubernetes, CI/CD, vector databases, fine-tuning, agents, and ML lifecycle knowledge are repeatedly appearing in AI/ML engineering requirements. ([LinkedIn][1])
 
 So your end goal isn't:
 
