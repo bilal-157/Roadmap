@@ -1,0 +1,31 @@
+Week 1: Foundations — Arrays, Strings, Hashing, Two Pointers, Sliding Window
+Theory:
+
+Arrays/Strings: Understand time complexity of operations (access O(1), insert/delete O(n)). Know how to think in terms of indices and in-place manipulation.
+Hashing: Hash maps/sets give O(1) average lookup — use them to trade space for time when you need to "remember" things you've seen.
+Two Pointers: Use when array is sorted or you need to compare elements from both ends / at different speeds. Classic for pair-sum, palindrome, cycle detection.
+Sliding Window: Use when you need a contiguous subarray/substring satisfying some condition — expand/shrink a window instead of recomputing from scratch (turns O(n²) into O(n)).
+
+Week 2: Linked Lists, Stacks/Queues, Recursion, Binary Search
+Theory:
+
+Linked Lists: Master pointer manipulation (dummy nodes, fast/slow pointers for cycle detection and finding middle). Draw it out on paper before coding.
+Stacks: LIFO — great for matching/nesting problems (parentheses), and "next greater element" style problems (monotonic stack).
+Queues: FIFO — used heavily in BFS.
+Recursion: Every recursive solution needs a base case and a way the problem shrinks toward it. Think in terms of "trust the recursive call to solve the smaller subproblem."
+Binary Search: Not just for sorted arrays — applies to any monotonic search space ("search on answer" pattern).
+
+Week 3: Trees, BST, Heaps, Tries, Graphs (BFS/DFS)
+Theory:
+
+Trees: Most tree problems reduce to DFS (preorder/inorder/postorder) or BFS (level order). Think recursively: "what does this function return for a subtree?"
+BST: Left < root < right property lets you prune search space — inorder traversal gives sorted order.
+Heaps: Use when you repeatedly need the min/max element — O(log n) insert/remove. Common in "top K" problems.
+Tries: Prefix trees — used for word search/autocomplete problems.
+Graphs: Represent as adjacency list. DFS for exploring all paths/connectivity, BFS for shortest path in unweighted graphs.
+
+Week 4: Dynamic Programming, Backtracking, Greedy + Mock Interviews
+Theory:
+DP: Break problem into overlapping subproblems + optimal substructure. Two approaches: top-down (recursion + memoization) or bottom-up (tabulation). Always start by writing the recursive brute force first, THEN optimize.
+Backtracking: Explore all possibilities via DFS, "undo" choices when they don't work (try → recurse → backtrack). Used for permutations, combinations, subsets.
+Greedy: Make the locally optimal choice at each step, hoping it leads to global optimum — works only when the problem has the "greedy choice property" (prove it before trusting it).
