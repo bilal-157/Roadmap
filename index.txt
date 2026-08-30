@@ -41,6 +41,8 @@ Once you have this, you branch:
 
 **Core skill:** exploring data to answer business questions and communicate findings clearly.
 
+https://chat.deepseek.com/share/auhjf2yrhdpghw3z12
+
 ---
 
 ## 🤖 Machine Learning Roadmap
