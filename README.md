@@ -1,5 +1,5 @@
 
-> **AI Engineer / ML Engineer + strong Backend + MLOps/Cloud**
+ **AI Engineer / ML Engineer + strong Backend + MLOps/Cloud**
 
 Your existing full-stack skills become your advantage rather than something you need to restart.
 
